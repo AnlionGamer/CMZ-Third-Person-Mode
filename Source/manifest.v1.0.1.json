@@ -1,0 +1,75 @@
+{
+  "packageFormat": 1,
+  "id": "cmz.thirdpersonmode",
+  "name": "Third-Person Mode",
+  "version": "1.0.1",
+  "author": "AnlionGamer",
+  "publisher": "AnlionGamer",
+  "description": "Adds a toggleable, collision-aware third-person camera while preserving vanilla player-authoritative world and ranged targeting for Castle Miner Z gameplay.",
+  "gameVersion": "1.9.9.8",
+  "framework": "1.0.0",
+  "api": "1.0.0",
+  "entryAssembly": "CMZ.ThirdPersonMode.dll",
+  "entryType": "CMZ.ThirdPersonMode.ThirdPersonModeMod",
+  "dependencies": [],
+  "optionalDependencies": [],
+  "incompatibilities": [],
+  "loadAfter": [],
+  "loadBefore": [],
+  "files": [
+    {
+      "path": "CMZ.ThirdPersonMode.dll",
+      "sha256": "F4B42C0CEB1498D7747822781AB02351A38F60F360E9C075C45944F65F770413"
+    }
+  ],
+  "releaseNotes": "Third-Person Mode 1.0.1 fixes third-person crosshair fidelity: hip-fire guns, grenades, tools, blocks, melee, and other world-interaction items now reuse CMZ 1.9.9.8 CrossHairTick visuals and vanilla spread/brightness rules at the projected real-aim point. The compact + remains exclusive to non-scoped gun ADS, while scoped guns continue to use the native first-person scope. Camera, collision, targeting, hotkey, and scope-state architecture are otherwise unchanged.",
+  "multiplayer": "Client-side camera and HUD behavior; no custom network messages. Multiplayer compatibility remains unverified.",
+  "configSchema": [
+    {
+      "key": "toggleKey",
+      "label": "Toggle Camera Hotkey",
+      "description": "Default: C. Enter a key such as C or F5, or a chord such as Ctrl+C, Alt+C, or Shift+C. Modifier-only bindings are rejected and invalid values fall back to C.",
+      "type": "text",
+      "defaultValue": "C",
+      "scope": "global"
+    },
+    {
+      "key": "startingPerspective",
+      "label": "Starting Perspective",
+      "description": "Perspective used when entering a gameplay session.",
+      "type": "choice",
+      "defaultValue": "First Person",
+      "choices": ["First Person", "Third Person"],
+      "scope": "global"
+    },
+    {
+      "key": "cameraSide",
+      "label": "Camera Side",
+      "description": "Places the third-person camera over the right shoulder, centered, or over the left shoulder.",
+      "type": "choice",
+      "defaultValue": "Right Shoulder",
+      "choices": ["Right Shoulder", "Centered", "Left Shoulder"],
+      "scope": "global"
+    },
+    {
+      "key": "cameraDistance",
+      "label": "Camera Distance",
+      "description": "Third-person camera distance behind the player.",
+      "type": "decimal",
+      "defaultValue": 3.25,
+      "min": 1.5,
+      "max": 6,
+      "scope": "global"
+    },
+    {
+      "key": "cameraHeight",
+      "label": "Camera Height",
+      "description": "Vertical offset from the normal eye line.",
+      "type": "decimal",
+      "defaultValue": 0.25,
+      "min": -0.5,
+      "max": 1,
+      "scope": "global"
+    }
+  ]
+}
