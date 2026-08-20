@@ -60,6 +60,10 @@ Third-person visibility can provide additional around-obstacle awareness compare
 
 The mod does not intentionally change world data or save formats. Disable or remove it through CMZ Mod Manager. Existing saves are not expected to require conversion.
 
+## Source
+
+The repository contains the exact v1.0.1 gameplay source plus a reference copy of the v1.0.1 release manifest. The release builder is intentionally not included because it is not required to install, use, or review the mod.
+
 ## Release Integrity
 
 Release downloads include `SHA256SUMS.txt` so the `.cmzmod` package can be verified after download.
