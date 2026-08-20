@@ -64,6 +64,14 @@ The mod does not intentionally change world data or save formats. Disable or rem
 
 The repository contains the exact v1.0.1 gameplay source plus a reference copy of the v1.0.1 release manifest. The release builder is intentionally not included because it is not required to install, use, or review the mod.
 
+## Attribution
+
+**Original concept and implementation by AnlionGamer.**
+
+## License
+
+This project is released under the **MIT License**. See [`LICENSE`](LICENSE) for the full license text.
+
 ## Release Integrity
 
 Release downloads include `SHA256SUMS.txt` so the `.cmzmod` package can be verified after download.
