@@ -2,6 +2,8 @@
 
 A toggleable, collision-aware third-person camera mod for **Castle Miner Z 1.9.9.8**.
 
+> **Unofficial community project:** Third-Person Mode is independently created and published by AnlionGamer. It is not an official Castle Miner Z release and is not affiliated with, sponsored by, approved by, or endorsed by the game's developers or publisher.
+
 **Publisher:** AnlionGamer  
 **Current release:** v1.0.1  
 **Mod ID:** `cmz.thirdpersonmode`
@@ -63,6 +65,16 @@ The mod does not intentionally change world data or save formats. Disable or rem
 ## Source
 
 The repository contains the exact v1.0.1 gameplay source plus a reference copy of the v1.0.1 release manifest. The release builder is intentionally not included because it is not required to install, use, or review the mod.
+
+## License and Attribution
+
+Third-Person Mode is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE`](LICENSE).
+
+The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use. Monetized videos, guides, and streams are allowed, and voluntary donations are allowed when payment is not required for access.
+
+Castle Miner Z and its original game material remain the property of their respective rights holders. See [`NOTICE.md`](NOTICE.md) for project attribution and the full affiliation notice.
+
+Future release packages should carry the applicable `LICENSE` and `NOTICE.md` inside the `.cmzmod` package so the terms remain attached when the package is shared separately from GitHub.
 
 ## Release Integrity
 
