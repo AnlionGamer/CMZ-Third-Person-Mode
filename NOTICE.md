@@ -4,9 +4,11 @@
 
 **Third-Person Mode** was conceived, directed, and released by **AnlionGamer** as a community-made modification for Castle Miner Z.
 
-The project is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See `LICENSE` for the controlling terms.
+The current repository `main` branch and future Third-Person Mode work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See `LICENSE` for the controlling terms.
 
-When redistributing the project or a permitted modified version, preserve the license, this notice, reasonable credit to **AnlionGamer** as the original creator, and clear identification of modified or forked versions.
+Public redistribution of project material or modified versions governed by the current terms requires prior permission from **AnlionGamer** and must remain non-commercial. Any permitted redistribution must preserve the applicable license, this notice, reasonable attribution, and clear identification of modifications.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies.
 
 ## Castle Miner Z
 
@@ -18,8 +20,8 @@ References to Castle Miner Z are solely for compatibility and identification. No
 
 ## Distribution identity
 
-Only releases published by AnlionGamer through an expressly designated project distribution location should be represented as original AnlionGamer releases. Forks and modified builds must be clearly identified as such and must not imply endorsement that has not been granted.
+Only releases published by AnlionGamer through an expressly designated project distribution location should be represented as original AnlionGamer releases. Modified or redistributed builds must not imply approval or endorsement that has not been granted.
 
 ## No warranty
 
-The software is provided without warranty under the terms in `LICENSE`.
+The software is provided without warranty under the terms in `LICENSE` or the historical terms applicable to the specific copy being used.
