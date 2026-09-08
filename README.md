@@ -68,9 +68,11 @@ The repository contains the exact v1.0.1 gameplay source plus a reference copy o
 
 ## License and Attribution
 
-Third-Person Mode is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE`](LICENSE).
+The current repository `main` branch and future Third-Person Mode work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See [`LICENSE`](LICENSE).
 
-The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use. Monetized videos, guides, and streams are allowed, and voluntary donations are allowed when payment is not required for access.
+The terms allow normal use, source inspection, and private modification. Public redistribution of the original project, source, packaged mod, forks, or modified builds requires **prior permission from AnlionGamer** and must remain **non-commercial**. Sale and paid access are prohibited without separate permission.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies; changing the repository license does not revoke earlier grants.
 
 Castle Miner Z and its original game material remain the property of their respective rights holders. See [`NOTICE.md`](NOTICE.md) for project attribution and the full affiliation notice.
 
