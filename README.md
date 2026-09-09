@@ -77,9 +77,3 @@ Copies already distributed under earlier documented terms retain the permissions
 Castle Miner Z and its original game material remain the property of their respective rights holders. See [`NOTICE.md`](NOTICE.md) for project attribution and the full affiliation notice.
 
 Future release packages should carry the applicable `LICENSE` and `NOTICE.md` inside the `.cmzmod` package so the terms remain attached when the package is shared separately from GitHub.
-
-## Release Integrity
-
-GitHub automatically publishes a SHA-256 digest for each uploaded release asset. The digest shown by GitHub for the asset on the **Releases** page is the authoritative public checksum for that uploaded file.
-
-This repository does not separately publish a manual release-file checksum. SHA-256 values embedded in package manifests remain part of the CMZ package format and are not alternate public release checksums.
