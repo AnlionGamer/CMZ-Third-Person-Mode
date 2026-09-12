@@ -1,0 +1,101 @@
+{
+    "packageFormat": 1,
+    "id": "cmz.thirdpersonmode",
+    "name": "Third-Person Mode",
+    "version": "1.1.5",
+    "author": "AnlionGamer",
+    "publisher": "AnlionGamer",
+    "description": "Third-person camera mode for Castle Miner Z with instant hold-to-free-look orbiting, quick-tap perspective switching, corrected third-person reticle projection, camera collision, ADS handling, and scoped first-person compatibility.",
+    "gameVersion": "1.9.9.8",
+    "framework": "1.0.0",
+    "api": "1.0.0",
+    "entryAssembly": "CMZ.ThirdPersonMode.dll",
+    "entryType": "CMZ.ThirdPersonMode.ThirdPersonModeMod",
+    "dependencies": [],
+    "optionalDependencies": [],
+    "incompatibilities": [],
+    "loadAfter": [],
+    "loadBefore": [],
+    "files": [
+        {
+            "path": "CMZ.ThirdPersonMode.dll",
+            "sha256": "05A4ABD3A74147160F759C6C5E57D094470C3DC16444DDBE141ED6497DD18F85"
+        },
+        {
+            "path": "LICENSE.txt",
+            "sha256": "31EBB6898E183FDA0DDF7B41165E107BDC5A55AB9700E8A3560DE632321CDC66"
+        },
+        {
+            "path": "NOTICE.md",
+            "sha256": "505488C59165AF09E1DB3C662D8F822EE2BA25E0A8940E24A124E72F6C802CD8"
+        }
+    ],
+    "releaseNotes": "Makes Free Camera responsive immediately on camera-key press. A quick release within the configurable Camera Tap Time switches First/Third Person; holding beyond that time keeps temporary Free Camera until release. Default Camera Tap Time is 180 ms with a 120-360 ms range. Mouse movement never changes tap-versus-hold classification. Retains the v1.1.3 no-recoil third-person reticle, v1.1.2 target-independent camera-distance/FOV gap scaling, v1.1.1 flicker/morphing fixes, player-facing lock, modifier-safe hotkeys, camera collision, ADS, and scoped first-person behavior.",
+    "multiplayer": "Client-side camera and HUD behavior; no custom network messages. Multiplayer compatibility remains unverified.",
+    "configSchema": [
+        {
+            "key": "toggleKey",
+            "label": "Toggle Camera Hotkey",
+            "description": "Default: C. Press and release quickly to switch between First Person and Third Person. Hold the key to use temporary Free Camera. Enter C/F5 or a required-modifier chord such as Ctrl+C. Extra held modifiers do not block the binding. Modifier-only bindings are rejected and invalid values fall back to C.",
+            "type": "text",
+            "defaultValue": "C",
+            "scope": "global"
+        },
+        {
+            "key": "cameraTapMilliseconds",
+            "label": "Camera Tap Time (ms)",
+            "description": "How quickly the camera key must be released to switch between First Person and Third Person. Holding the key longer uses Free Camera instead. Free Camera starts immediately when the key is pressed. Lower values require a faster tap to switch views.",
+            "type": "decimal",
+            "defaultValue": 180,
+            "min": 120,
+            "max": 360,
+            "scope": "global"
+        },
+        {
+            "key": "startingPerspective",
+            "label": "Starting Perspective",
+            "description": "Perspective used when entering a gameplay session.",
+            "type": "choice",
+            "defaultValue": "First Person",
+            "choices": [
+                "First Person",
+                "Third Person"
+            ],
+            "scope": "global"
+        },
+        {
+            "key": "cameraSide",
+            "label": "Camera Side",
+            "description": "Places the third-person camera over the right shoulder, centered, or over the left shoulder.",
+            "type": "choice",
+            "defaultValue": "Right Shoulder",
+            "choices": [
+                "Right Shoulder",
+                "Centered",
+                "Left Shoulder"
+            ],
+            "scope": "global"
+        },
+        {
+            "key": "cameraDistance",
+            "label": "Camera Distance",
+            "description": "Third-person camera distance behind the player.",
+            "type": "decimal",
+            "defaultValue": 3.25,
+            "min": 1.5,
+            "max": 6,
+            "scope": "global"
+        },
+        {
+            "key": "cameraHeight",
+            "label": "Camera Height",
+            "description": "Vertical offset from the normal eye line.",
+            "type": "decimal",
+            "defaultValue": 0.25,
+            "min": -0.5,
+            "max": 1,
+            "scope": "global"
+        }
+    ],
+    "license": "AnlionGamer Community Distribution Terms v1.0"
+}
